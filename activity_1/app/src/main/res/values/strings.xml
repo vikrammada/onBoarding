@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">activity_1</string>
+    <string name="Button_send">button_send</string>
+    <string name="title_activity_second">title_activity_second</string>
+</resources>

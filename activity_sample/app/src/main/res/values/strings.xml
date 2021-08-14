@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Health Portal</string>
+    <string name="first_name">FirstName<font color='#FFF44336'>*</font></string>
+    <string name="last_name">LastName<font color='#FFF44336'>*</font></string>
+    <string name="email">Email<font color='#FFF44336'>*</font></string>
+    <string name="login_welcome">Welcome</string>
+
+</resources>
