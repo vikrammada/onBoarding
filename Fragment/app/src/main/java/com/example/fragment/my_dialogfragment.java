@@ -32,7 +32,7 @@ public class my_dialogfragment extends AppCompatDialogFragment {
 
                 fragmentTransaction.replace(R.id.frame_fragment,fragment);
                 //fragmentTransaction.replace(R.id.frame_fragment,fragment);
-                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.addToBackStack("fragments");
                 fragmentTransaction.commit();
                 //String name_input=user_name.getText().toString();
 

@@ -5,12 +5,14 @@ import android.app.Dialog;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
 
-public class dialog_appointment extends DialogFragment {
+/*public class dialog_appointment extends DialogFragment {
 
     @Override
     public Dialog onCreateDialog( Bundle savedInstanceState) {
@@ -20,5 +22,13 @@ public class dialog_appointment extends DialogFragment {
         builder.setView(view);
         return builder.create();
 
+    }
+}*/
+public class dialog_appointment extends Fragment{
+
+    @Override
+    public View onCreateView(LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.appointment_dialog,container,false);
+        //super.onCreateView(inflater, container, savedInstanceState);
     }
 }
